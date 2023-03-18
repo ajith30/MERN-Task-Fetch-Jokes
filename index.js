@@ -11,7 +11,6 @@ const getJokes = async () => {
       "https://geek-jokes.sameerkumar.website/api?format=json"
     );
     const data = await response.json();
-    console.log(data);
 
     const joke = data.joke;
 
